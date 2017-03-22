@@ -1,3 +1,11 @@
-site_name: My Docs
+site_name: Yotaro TAKAZAWA
 repo_url: https://github.com/takazawa/takazawa.github.io
+edit_uri: edit/mkdocs/docs/
 remote_branch: master
+copyright: © Copyright 2017, Yotaro TAKAZAWA.
+google_analytics: ['UA-46481543-2', 'takazawa.github.io']
+theme: 'material'
+
+pages:
+    - Home: index.md
+    - Home (English): index_en.md
