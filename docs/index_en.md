@@ -13,7 +13,7 @@ I am a doctoral course student at [Department of Industrial Engineering and Econ
 
 ---
 ## Research Achievements
-### Technical Report
+### Technical Reports
 -   Y. Takazawa, S. Mizuno and T. Kitahara: An approximation algorithm for the partial covering 0-1 integer program, Department of Industrial Engineering and Economics Working Paper 2017-2, Tokyo Institute of Technology. [[PDF](http://educ.titech.ac.jp/iee/news/file/news_14784.pdf)]
 
 ### Refereed Papers in Journals

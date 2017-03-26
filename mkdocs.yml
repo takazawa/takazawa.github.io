@@ -1,11 +1,48 @@
 site_name: Yotaro TAKAZAWA
-repo_url: https://github.com/takazawa/takazawa.github.io
 edit_uri: edit/mkdocs/docs/
 remote_branch: master
 copyright: © Copyright 2017, Yotaro TAKAZAWA.
 google_analytics: ['UA-46481543-2', 'takazawa.github.io']
 theme: 'material'
 
+
+# Page tree
 pages:
-    - Home: index.md
-    - Home (English): index_en.md
+  - Home: index.md
+  - Home (English): index_en.md
+  - 日記:
+    - 2017年3月: diary/2017/diary_201703.md
+  - その他:
+    - その他: hobby/about_me.md
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+
+# Options
+extra:
+  font: false
+  palette:
+    primary: 'teal'
+    accent: 'teal'
+  social:
+    - type: 'github'
+      link: 'https://github.com/takazawa'
