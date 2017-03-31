@@ -1,4 +1,5 @@
 site_name: Yotaro TAKAZAWA
+repo_url: https://github.com/takazawa/takazawa.github.io/
 edit_uri: edit/mkdocs/docs/
 remote_branch: master
 copyright: © Copyright 2017, Yotaro TAKAZAWA.
@@ -13,7 +14,7 @@ pages:
   - 日記:
     - 2017年3月: diary/2017/diary_201703.md
   - その他:
-    - その他: hobby/about_me.md
+    - 個人ページ作成方法: hobby/mkdocs.md
 
 # Extensions
 markdown_extensions:
