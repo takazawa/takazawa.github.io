@@ -1,4 +1,7 @@
 # Yotaro TAKAZAWA
+
+![Yotaro Takazawa](img/takazawa.jpg)
+
 I am a doctoral course student at [Department of Industrial Engineering and Economics](http://educ.titech.ac.jp/iee/eng/), School of Engineering, Tokyo Institute of Technology.
 
 ---

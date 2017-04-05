@@ -12,6 +12,7 @@ pages:
   - Home: index.md
   - Home (English): index_en.md
   - 日記:
+    - 2017年4月: diary/2017/diary_201704.md
     - 2017年3月: diary/2017/diary_201703.md
   - その他:
     - 個人ページ作成方法: hobby/mkdocs.md

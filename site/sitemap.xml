@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-04-01</lastmod>
+     <lastmod>2017-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,16 +12,22 @@
     
     <url>
      <loc>/index_en/</loc>
-     <lastmod>2017-04-01</lastmod>
+     <lastmod>2017-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
+    <url>
+     <loc>/diary/2017/diary_201704/</loc>
+     <lastmod>2017-04-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
         
     <url>
      <loc>/diary/2017/diary_201703/</loc>
-     <lastmod>2017-04-01</lastmod>
+     <lastmod>2017-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -30,14 +36,8 @@
     
         
     <url>
-     <loc>/hobby/about_me/</loc>
-     <lastmod>2017-04-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>/hobby/mkdocs/</loc>
-     <lastmod>2017-04-01</lastmod>
+     <lastmod>2017-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

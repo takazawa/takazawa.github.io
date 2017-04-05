@@ -1,6 +1,6 @@
 # Yotaro TAKAZAWA (高澤 陽太朗)
 
-![Takazawa's profile image](img/takazawa.jpg)
+![高澤 陽太朗](img/takazawa.jpg)
 
 (2017年4月から)東工大工学院経営工学系[水野研究室](http://www.me.titech.ac.jp/~mizu_lab/)博士課程の学生です．今年の目標はいろいろな人と交流することと情報発信をしていくことです．
 
