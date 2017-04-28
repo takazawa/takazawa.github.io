@@ -22,7 +22,7 @@ NP困難の問題に対して精度の保証がある[近似アルゴリズム](
 -   Y. Takazawa, S. Mizuno and T. Kitahara: An approximation algorithm for the partial covering 0-1 integer program, Department of Industrial Engineering and Economics Working Paper 2017-2, Tokyo Institute of Technology. [[PDF](http://educ.titech.ac.jp/iee/news/file/news_14784.pdf)]
 
 ### 査読付き学術誌論文
--   Y. Takazawa and S. Mizuno: A 2-approximation algorithm for the minimum knapsack problem with a forcing graph, *Journal of Operations Research Research of Japan*, **60.1** (2017), 15-23. [[PDF](http://www.orsj.or.jp/~archive/pdf/e_mag/Vol.60_01_015.pdf)]
+-   Y. Takazawa and S. Mizuno: A 2-approximation algorithm for the minimum knapsack problem with a forcing graph, *Journal of Operations  Research Society of Japan*, **60.1** (2017), 15-23. [[PDF](http://www.orsj.or.jp/~archive/pdf/e_mag/Vol.60_01_015.pdf)]
 
 ### 国際会議での口頭発表
 準備中．

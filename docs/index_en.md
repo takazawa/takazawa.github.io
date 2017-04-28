@@ -20,7 +20,7 @@ I am a doctoral course student at [Department of Industrial Engineering and Econ
 -   Y. Takazawa, S. Mizuno and T. Kitahara: An approximation algorithm for the partial covering 0-1 integer program, Department of Industrial Engineering and Economics Working Paper 2017-2, Tokyo Institute of Technology. [[PDF](http://educ.titech.ac.jp/iee/news/file/news_14784.pdf)]
 
 ### Refereed Papers in Journals
--   Y. Takazawa and S. Mizuno: A 2-approximation algorithm for the minimum knapsack problem with a forcing graph, *Journal of Operations Research Research of Japan*, **60.1** (2017), 15-23. [[PDF](http://www.orsj.or.jp/~archive/pdf/e_mag/Vol.60_01_015.pdf)]
+-   Y. Takazawa and S. Mizuno: A 2-approximation algorithm for the minimum knapsack problem with a forcing graph, *Journal of Operations Research Society of Japan*, **60.1** (2017), 15-23. [[PDF](http://www.orsj.or.jp/~archive/pdf/e_mag/Vol.60_01_015.pdf)]
 
 ---
 ## Contact
