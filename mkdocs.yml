@@ -4,15 +4,15 @@ edit_uri: edit/mkdocs/docs/
 remote_branch: master
 copyright: © Copyright 2017, Yotaro TAKAZAWA.
 google_analytics: ['UA-46481543-2', 'takazawa.github.io']
-theme: 'material'
 
 
-# theme:
-#   name: 'material'
-#     language: 'ja'
-# extra:
-#   search:
-#       language: 'jp'
+
+theme:
+  name: 'material'
+  language: 'ja'
+  palette:
+    primary: 'teal'
+    accent: 'teal'
 
 
 # Page tree
