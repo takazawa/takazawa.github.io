@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/index_en/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,68 +20,80 @@
     
         
     <url>
+     <loc>/diary/2018/diary_201808/</loc>
+     <lastmod>2018-12-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/diary/2018/diary_201807/</loc>
+     <lastmod>2018-12-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/diary/2018/diary_201801/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201712/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201711/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201710/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201709/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201708/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201707/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201706/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201705/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201704/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/diary/2017/diary_201703/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -91,25 +103,31 @@
         
     <url>
      <loc>/hobby/mkdocs/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/hobby/bulletproof_coffee/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/hobby/venex/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/hobby/selenium_python_tor/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/hobby/pipreqs/</loc>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -118,7 +136,7 @@
     
     <url>
      <loc>/link/</loc>
-     <lastmod>2018-05-22</lastmod>
+     <lastmod>2018-12-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
