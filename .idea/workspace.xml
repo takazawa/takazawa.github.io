@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79dd7381-51a3-4d21-92c6-21046850439d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hobby/google_jamboard.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hobby/google_jamboard.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201703/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201703/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201704/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201704/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201705/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201705/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201706/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201706/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201707/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201707/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201708/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201708/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201709/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201709/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201710/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201710/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201711/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201711/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201712/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201712/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2018/diary_201801/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2018/diary_201801/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2018/diary_201807/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2018/diary_201807/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/2018/diary_201808/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2018/diary_201808/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/diary/diary_top/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/diary_top/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/hobby/bulletproof_coffee/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/bulletproof_coffee/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/hobby/google_jamboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/google_jamboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/hobby/mkdocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/mkdocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/hobby/pipreqs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/pipreqs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/hobby/selenium_python_tor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/selenium_python_tor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/hobby/venex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/venex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/index_en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index_en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/link/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/link/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/search/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +17,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mkdocs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="720">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/diary/2018/diary_201812.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -62,12 +47,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor>
                 <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/hobby/google_jamboard.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/diary/2017/diary_201705.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="249">
+                <caret line="98" selection-start-line="98" selection-end-line="98" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -94,8 +103,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docs/index.md" />
-        <option value="$PROJECT_DIR$/mkdocs.yml" />
         <option value="$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md" />
+        <option value="$PROJECT_DIR$/docs/diary/2018/diary_201812.md" />
+        <option value="$PROJECT_DIR$/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/docs/hobby/google_jamboard.md" />
       </list>
     </option>
   </component>
@@ -128,6 +139,26 @@
               <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="diary" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="diary" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="2017" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="diary" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="2018" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="hobby" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -135,6 +166,12 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/hobby" />
+      <recent name="$PROJECT_DIR$/docs/diary/2018" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,12 +195,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544246386885</updated>
-      <workItem from="1544246388087" duration="11527000" />
+      <workItem from="1544246388087" duration="14250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11162000" />
+    <option name="totallyTimeSpent" value="13885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="913" height="1080" extended-state="6" />
@@ -204,13 +241,6 @@
     <entry file="file://$PROJECT_DIR$/1.4.1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -221,11 +251,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/diary/2018/diary_201812.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/diary/2017/diary_201705.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="249">
+            <caret line="98" selection-start-line="98" selection-end-line="98" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor>
             <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/hobby/google_jamboard.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>

@@ -20,6 +20,7 @@ pages:
   - Home: index.md
   - Home (English): index_en.md
   - 日記:
+    - 2018年12月: diary/2018/diary_201812.md
     - 2018年8月: diary/2018/diary_201808.md
     - 2018年7月: diary/2018/diary_201807.md
     - 2018年1月: diary/2018/diary_201801.md
@@ -34,8 +35,9 @@ pages:
     - 2017年4月: diary/2017/diary_201704.md
     - 2017年3月: diary/2017/diary_201703.md
   - その他:
+    - Google Jamboard: hobby/google_jamboard.md
     - 個人ページ作成方法: hobby/mkdocs.md
-    - 完全無欠コーヒー作成のための注意点: hobby/bulletproof_coffee.md
+    - 完全無欠コーヒー作成のためのTips: hobby/bulletproof_coffee.md
     - ベネクス(VENEX)について: hobby/venex.md
     - Selenium利用時にIPアドレスを毎アクセス変えたい: hobby/selenium_python_tor.md
     - スマートにrequirements.txt作成: hobby/pipreqs.md
