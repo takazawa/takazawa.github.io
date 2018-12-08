@@ -2,17 +2,16 @@ site_name: Yotaro TAKAZAWA
 repo_url: https://github.com/takazawa/takazawa.github.io/
 edit_uri: edit/mkdocs/docs/
 remote_branch: master
-copyright: © Copyright 2017, Yotaro TAKAZAWA.
+copyright: © Copyright 2018, Yotaro TAKAZAWA.
 google_analytics: ['UA-46481543-2', 'takazawa.github.io']
-
 
 
 theme:
   name: 'material'
   language: 'ja'
   palette:
-    primary: 'teal'
-    accent: 'teal'
+    primary: 'blue grey'
+    accent: 'blue grey'
 
 
 # Page tree
@@ -43,16 +42,12 @@ pages:
 
 # Extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite(guess_lang=false)
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc(permalink=true)
   - pymdownx.arithmatex
-  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
@@ -60,17 +55,20 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
-  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tilde
 
 # Options
 extra:
   font: false
-  palette:
-    primary: 'teal'
-    accent: 'teal'
+  disqus: 'yotaro'
   social:
     - type: 'github'
       link: 'https://github.com/takazawa'
   search:
     language: 'jp'
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
