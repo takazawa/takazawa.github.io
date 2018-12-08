@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79dd7381-51a3-4d21-92c6-21046850439d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/images/icons/bitbucket.4ebea66e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/images/icons/github.a4034fb1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/images/icons/gitlab.348cdb3a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/application.b438e6c5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.da.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.de.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.du.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.du.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.it.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.jp.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.jp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.multi.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.multi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.no.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.stemmer.support.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.stemmer.support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/lunr.tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/lunr/tinyseg.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/assets/javascripts/lunr/tinyseg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/javascripts/modernizr.1aa3b519.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/stylesheets/application-palette.6079476c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/stylesheets/application.8d40d89b.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201703/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201703/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201704/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201704/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/diary/2017/diary_201705/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2017/diary_201705/index.html" afterDir="false" />
@@ -43,7 +19,9 @@
       <change beforePath="$PROJECT_DIR$/site/diary/2018/diary_201801/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2018/diary_201801/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/diary/2018/diary_201807/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2018/diary_201807/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/diary/2018/diary_201808/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/2018/diary_201808/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/diary/diary_top/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/diary/diary_top/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/hobby/bulletproof_coffee/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/bulletproof_coffee/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/hobby/google_jamboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/google_jamboard/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/hobby/mkdocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/mkdocs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/hobby/pipreqs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/pipreqs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/hobby/selenium_python_tor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/hobby/selenium_python_tor/index.html" afterDir="false" />
@@ -53,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/site/link/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/link/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/search/search_index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,12 +41,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="343">
-                <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+              <first_editor relative-caret-position="645">
+                <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor>
+                <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,25 +75,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mkdocs.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index_en.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/1.4.1">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>site_rrl</find>
+      <find>admotion</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,8 +93,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mkdocs.yml" />
         <option value="$PROJECT_DIR$/docs/index.md" />
+        <option value="$PROJECT_DIR$/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md" />
       </list>
     </option>
   </component>
@@ -130,6 +123,12 @@
               <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hobby" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -159,25 +158,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544246386885</updated>
-      <workItem from="1544246388087" duration="3685000" />
+      <workItem from="1544246388087" duration="11527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3320000" />
+    <option name="totallyTimeSpent" value="11162000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1312" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="913" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123622045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2663605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -202,18 +201,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.4.1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/mkdocs.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="343">
-            <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <first_editor relative-caret-position="645">
+            <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/hobby/bulletproof_coffee.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>

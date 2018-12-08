@@ -1,5 +1,6 @@
-site_name: Yotaro TAKAZAWA
-repo_url: https://github.com/takazawa/takazawa.github.io/
+site_name: 'Yotaro TAKAZAWA'
+repo_url: 'https://github.com/takazawa/takazawa.github.io/'
+site_url: 'https://takazawa.github.io/'
 edit_uri: edit/mkdocs/docs/
 remote_branch: master
 copyright: © Copyright 2018, Yotaro TAKAZAWA.
@@ -42,6 +43,7 @@ pages:
 
 # Extensions
 markdown_extensions:
+  - admonition
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
