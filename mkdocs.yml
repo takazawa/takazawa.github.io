@@ -14,7 +14,6 @@ theme:
     primary: 'blue grey'
     accent: 'blue grey'
 
-
 # Page tree
 pages:
   - Home: index.md
@@ -34,13 +33,16 @@ pages:
     - 2017年5月: diary/2017/diary_201705.md
     - 2017年4月: diary/2017/diary_201704.md
     - 2017年3月: diary/2017/diary_201703.md
-  - その他:
+  - メモ:
     - Google Jamboard: hobby/google_jamboard.md
     - 個人ページ作成方法: hobby/mkdocs.md
     - 完全無欠コーヒー作成のためのTips: hobby/bulletproof_coffee.md
-    - ベネクス(VENEX)について: hobby/venex.md
     - Selenium利用時にIPアドレスを毎アクセス変えたい: hobby/selenium_python_tor.md
     - スマートにrequirements.txt作成: hobby/pipreqs.md
+    - NMF: hobby/nmf_sklearn.md
+  - ライフスタイル:
+    - 完全無欠コーヒー作成のためのTips: hobby/bulletproof_coffee.md
+    - ベネクス(VENEX)について: hobby/venex.md
   - リンク: link.md
 
 # Extensions
