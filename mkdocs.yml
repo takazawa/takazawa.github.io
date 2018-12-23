@@ -40,6 +40,7 @@ pages:
     - Selenium利用時にIPアドレスを毎アクセス変えたい: hobby/selenium_python_tor.md
     - スマートにrequirements.txt作成: hobby/pipreqs.md
     - scikit-learnでNMFの学習・予測: hobby/nmf_sklearn.md
+    - PandasのDataFrameのappendの高速化: hobby/pandas_append_fast.md
   - ライフスタイル:
     - 完全無欠コーヒー作成のためのTips: hobby/bulletproof_coffee.md
     - ベネクス(VENEX)について: hobby/venex.md
