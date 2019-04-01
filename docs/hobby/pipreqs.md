@@ -25,7 +25,22 @@ pip install pipreqs
 pipreqs .
 ```
 
-### pigar
+
+
+
+### 補足1: 通常のrequirements.txtの出力方法
+
+
+出力 (https://pip.pypa.io/en/stable/reference/pip_freeze/)
+
+`pip freeze > requirements.txt`
+
+
+インストール (https://pip.pypa.io/en/stable/reference/pip_install/)
+
+`pip install -r requirements.txt`
+
+### 補足2: pigar
 
 似たようなことができるライブラリ
 

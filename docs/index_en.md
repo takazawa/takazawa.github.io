@@ -17,16 +17,12 @@ I am a doctoral course student at [Department of Industrial Engineering and Econ
 
 ---
 ## Research Achievements
-### Technical Reports
-
-1. Y. Takazawa, S. Mizuno, “On a reduction of the  weighted induced bipartite subgraph problem to the weighted  independent set problem”, Optimization Online. [[PDF](http://www.optimization-online.org/DB_FILE/2018/07/6728.pdf)]
-
-1.  Y. Takazawa, S. Mizuno, T. Kitahara, “An improved approximation algorithm for the covering 0-1 integer program”, Department of Industrial Engineering and Economics Working Paper 2017-6, Tokyo Institute of Technology. [[PDF](http://educ.titech.ac.jp/iee/news/file/news_16645.pdf)]
-
-
-
 
 ### Refereed Papers in Journals
+
+1. Y. Takazawa, S. Mizuno, T. Kitahara, “Approximation algorithms for the covering-type k violation linear program”, Optimization Letters, accepted.
+
+1. Y. Takazawa, S. Mizuno, T. Kitahara, “An improved approximation algorithm for the covering 0-1 integer program”, Pacific Journal of Optimization, accepted.
 
 1.  Y. Takazawa, S. Mizuno, T. Kitahara, “An approximation algorithm for the partial covering 0-1 integer program”,
 *Discrete Applied Mathematics*, in press [[URL](http://www.sciencedirect.com/science/article/pii/S0166218X17304109)].
