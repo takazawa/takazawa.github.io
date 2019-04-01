@@ -39,7 +39,8 @@ pages:
     - 完全無欠コーヒー作成のためのTips: hobby/bulletproof_coffee.md
     - Selenium利用時にIPアドレスを毎アクセス変えたい: hobby/selenium_python_tor.md
     - スマートにrequirements.txt作成: hobby/pipreqs.md
-    - NMF: hobby/nmf_sklearn.md
+    - scikit-learnでNMFの学習・予測: hobby/nmf_sklearn.md
+    - PandasのDataFrameのappendの高速化: hobby/pandas_append_fast.md
   - ライフスタイル:
     - 完全無欠コーヒー作成のためのTips: hobby/bulletproof_coffee.md
     - ベネクス(VENEX)について: hobby/venex.md
@@ -77,4 +78,3 @@ extra:
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-
