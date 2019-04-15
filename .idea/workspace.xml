@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/docs/diary/2019/diary_201904.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,36 +66,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="diary" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="takazawa_webpage" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="diary" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="2019" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,18 +109,20 @@
       <workItem from="1554075578390" duration="2067000" />
       <workItem from="1554348785531" duration="1210000" />
       <workItem from="1554631580977" duration="1890000" />
-      <workItem from="1554736260199" duration="1861000" />
+      <workItem from="1554736260199" duration="5003000" />
+      <workItem from="1555215253732" duration="509000" />
+      <workItem from="1555295047845" duration="263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30361000" />
+    <option name="totallyTimeSpent" value="34275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28221512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17891374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -162,7 +136,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -320,8 +294,8 @@
     <entry file="file://$PROJECT_DIR$/docs/diary/2019/diary_201904.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
