@@ -1,22 +1,37 @@
 ---
-title: Yotaro Takazawa
-date: 2019-11-01 22:20:28
+title: Yotaro Takazawa (高澤 陽太朗)
+date: 2019-11-01
+categories:
+    - about 
 ---
 
 
-
-I am a doctoral course student at [Department of Industrial Engineering and Economics](http://educ.titech.ac.jp/iee/eng/), School of Engineering, Tokyo Institute of Technology.
 
 ---
 ## Research Areas
--   Approximation Algorithms for NP-hard Problems
+
+- Operations research
+- Combinatorial Optimization 
+- Approximation Algorithms
 
 ---
 
 ## Curriculum Vitae
+
+### Experience
+-  Oct 2019 - Present: Assistant Professor
+Department of Industrial and Systems Engineering, Aoyama Gakuin University @Kanagawa, Japan
+- Oct 2018 - Sep 2019: AI Engineer (intern)
+Mercari, Inc. @Tokyo, Japan
+- Mar 2016 - Aug 2019: Algorithm Engineer (intern)
+PKSHA Technology @Tokyo, Japan
+
+
 ### Education
--   Mar. 2017: Master of Engineering from Department of Industrial Engineering and Management, Graduate School of Decision Science and Technology, Tokyo Institute of Technology.
--   Mar. 2015: Bachelor of Engineering from Department of Industrial and Systems Engineering, Faculty of Engineering, Tokyo Institute of Technology.
+-   Sep 2019: Doctor of Engineering from Department of Industrial Engineering and Economics, School of Engineering, Tokyo Institute of Technology.
+-   Mar 2017: Master of Engineering from Department of Industrial Engineering and Management, Graduate School of Decision Science and Technology, Tokyo Institute of Technology.
+-   Mar 2015: Bachelor of Engineering from Department of Industrial and Systems Engineering, Faculty of Engineering, Tokyo Institute of Technology.
+
 
 ---
 ## Research Achievements
@@ -44,4 +59,5 @@ Discrete Optimization and Machine Learning, Tokyo, Japan, July 2018.
 
 ---
 ## Contact
-takazawa.y.ab [at] m.titech.ac.jp
+
+takazawa [AT] ise.aoyama.ac.jp or [Twitter](https://twitter.com/y_takazawa)
