@@ -8,17 +8,17 @@ categories:
 
 
 ---
-## Research Areas
+# Research Areas
 
-- Operations research
+- Operations Research
 - Combinatorial Optimization 
 - Approximation Algorithms
 
 ---
 
-## Curriculum Vitae
+# Curriculum Vitae
 
-### Experience
+## Experience
 -  Oct 2019 - Present: Assistant Professor
 Department of Industrial and Systems Engineering, Aoyama Gakuin University @Kanagawa, Japan
 - Oct 2018 - Sep 2019: AI Engineer (intern)
@@ -27,16 +27,16 @@ Mercari, Inc. @Tokyo, Japan
 PKSHA Technology @Tokyo, Japan
 
 
-### Education
+## Education
 -   Sep 2019: Doctor of Engineering from Department of Industrial Engineering and Economics, School of Engineering, Tokyo Institute of Technology.
 -   Mar 2017: Master of Engineering from Department of Industrial Engineering and Management, Graduate School of Decision Science and Technology, Tokyo Institute of Technology.
 -   Mar 2015: Bachelor of Engineering from Department of Industrial and Systems Engineering, Faculty of Engineering, Tokyo Institute of Technology.
 
 
 ---
-## Research Achievements
+# Research Achievements
 
-### Refereed Papers in Journals
+## Refereed Papers in Journals
 
 1. Y. Takazawa, S. Mizuno, T. Kitahara, “Approximation algorithms for the covering-type k violation linear program”, *Optimization Letters*, accepted.
 
@@ -46,7 +46,7 @@ PKSHA Technology @Tokyo, Japan
 
 1.   Y. Takazawa, S. Mizuno, “A 2-approximation algorithm for the minimum knapsack problem with a forcing graph”, *Journal of Operations Research Society of Japan*, **60.1** (2017), 15-23. [[PDF](http://www.orsj.or.jp/~archive/pdf/e_mag/Vol.60_01_015.pdf)]
 
-### Conference
+## Conference
 
 1. Y.Takazawa, S. Mizuno, T. Kitahara, "Approximation algorithms for covering problems", First Conference on
 Discrete Optimization and Machine Learning, Tokyo, Japan, July 2018.
@@ -58,6 +58,6 @@ Discrete Optimization and Machine Learning, Tokyo, Japan, July 2018.
 1.	Y. Takazawa, S. Mizuno, T. Kitahara, “An approximation algorithm for the partial covering 0-1 integer program”, SIAM Conference on Optimization, Vancouver, Canada, May 2017.
 
 ---
-## Contact
+# Contact
 
-takazawa [AT] ise.aoyama.ac.jp or [Twitter](https://twitter.com/y_takazawa)
+yotaro.takazawa [AT] gmail.com or [Twitter](https://twitter.com/y_takazawa)
