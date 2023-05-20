@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yotaro's BLOG
+title: Yotaro's Website
 subtitle:
 description:
 keywords:
@@ -84,18 +84,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: cactus
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/takazawa/takazawa.github.io
-  branch: master #published
-
-githubEmojis:
-  enable: true
-  className: github-emoji
-  inject: true
-  styles:
-  customEmojis:
+  repo: https://github.com/takazawa/takazawa.github.io.git
+  branch: master
