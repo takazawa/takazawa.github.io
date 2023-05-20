@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="pythonでseleniumを利用時に，毎アクセスIPアドレスを変えれないのか?  というモチベーションを持っている人は多いと思う．それは以下の方法で（たぶん）実現可能．Pythonだけど，Pythonじゃなくてもほぼおなじかと．基本的に参考のリンク先を読めばわかるが，日本語の情報があまりなかったので一応共有．">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Selenium利用時にIPアドレスを毎アクセス変えたい">
+<meta property="og:url" content="https://takazawa.github.io/hobby/selenium_python_tor/index.html">
+<meta property="og:site_name" content="Yotaro&#39;s BLOG">
+<meta property="og:description" content="pythonでseleniumを利用時に，毎アクセスIPアドレスを変えれないのか?  というモチベーションを持っている人は多いと思う．それは以下の方法で（たぶん）実現可能．Pythonだけど，Pythonじゃなくてもほぼおなじかと．基本的に参考のリンク先を読めばわかるが，日本語の情報があまりなかったので一応共有．">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://takazawa.github.io/img/test.png">
+<meta property="article:published_time" content="2017-12-31T15:00:00.000Z">
+<meta property="article:modified_time" content="2023-05-20T16:57:04.989Z">
+<meta property="article:author" content="Yotaro Takazawa">
+<meta property="article:tag" content="プログラミング">
+<meta property="article:tag" content="Python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://takazawa.github.io/img/test.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Selenium利用時にIPアドレスを毎アクセス変えたい</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/diary/2018/diary_201801/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/diary/2017/diary_201712/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://takazawa.github.io/hobby/selenium_python_tor/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://takazawa.github.io/hobby/selenium_python_tor/&text=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://takazawa.github.io/hobby/selenium_python_tor/&is_video=false&description=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Selenium利用時にIPアドレスを毎アクセス変えたい&body=Check out this article: https://takazawa.github.io/hobby/selenium_python_tor/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://takazawa.github.io/hobby/selenium_python_tor/&name=Selenium利用時にIPアドレスを毎アクセス変えたい&description=&lt;blockquote&gt;
+&lt;p&gt;pythonでseleniumを利用時に，毎アクセスIPアドレスを変えれないのか?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;というモチベーションを持っている人は多いと思う．&lt;br&gt;それは以下の方法で（たぶん）実現可能．Pythonだけど，Pythonじゃなくてもほぼおなじかと．&lt;br&gt;基本的に参考のリンク先を読めばわかるが，日本語の情報があまりなかったので一応共有．&lt;/p&gt;"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://takazawa.github.io/hobby/selenium_python_tor/&t=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Tor-Browser%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB"><span class="toc-number">1.</span> <span class="toc-text">1. Tor Browserをインストール</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Tor-Browser%E3%82%92%E8%B5%B7%E5%8B%95"><span class="toc-number">2.</span> <span class="toc-text">2. Tor Browserを起動</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Selenium%E3%82%92%E4%BD%BF%E3%81%86"><span class="toc-number">3.</span> <span class="toc-text">3. Seleniumを使う</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A2%BA%E8%AA%8D"><span class="toc-number">4.</span> <span class="toc-text">確認</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">5.</span> <span class="toc-text">参考</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        Selenium利用時にIPアドレスを毎アクセス変えたい
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Yotaro Takazawa</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2017-12-31T15:00:00.000Z" class="dt-published" itemprop="datePublished">2018-01-01</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/hobby/">hobby</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa-solid fa-tag"></i>
+        <a class="p-category" href="/tags/Python/" rel="tag">Python</a>, <a class="p-category" href="/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="tag">プログラミング</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <blockquote>
+<p>pythonでseleniumを利用時に，毎アクセスIPアドレスを変えれないのか?</p>
+</blockquote>
+<p>というモチベーションを持っている人は多いと思う．<br>それは以下の方法で（たぶん）実現可能．Pythonだけど，Pythonじゃなくてもほぼおなじかと．<br>基本的に参考のリンク先を読めばわかるが，日本語の情報があまりなかったので一応共有．</p>
+<span id="more"></span>
+
+<h3 id="1-Tor-Browserをインストール"><a href="#1-Tor-Browserをインストール" class="headerlink" title="1. Tor Browserをインストール"></a>1. Tor Browserをインストール</h3><p><a target="_blank" rel="noopener" href="https://www.torproject.org/download/download">こちら</a>からインストールする．</p>
+<h3 id="2-Tor-Browserを起動"><a href="#2-Tor-Browserを起動" class="headerlink" title="2. Tor Browserを起動"></a>2. Tor Browserを起動</h3><p>selenium利用時は常に起動しておく．</p>
+<h3 id="3-Seleniumを使う"><a href="#3-Seleniumを使う" class="headerlink" title="3. Seleniumを使う"></a>3. Seleniumを使う</h3><p>以下のprofileを渡して実行．もしうまくいかない場合はTor Browserの右上の設定ボタンから「Preferences&#x2F;Advanced(タブ)&#x2F;Network(タブ)&#x2F;Connection&#x2F;Settings」が↓の設定と整合的かを確認する．</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">from selenium import webdriver</span><br><span class="line">firefox_profile = webdriver.FirefoxProfile()</span><br><span class="line">firefox_profile.set_preference(&#x27;network.proxy.type&#x27;, 1)</span><br><span class="line">firefox_profile.set_preference(&#x27;network.proxy.socks&#x27;, &#x27;127.0.0.1&#x27;)</span><br><span class="line">firefox_profile.set_preference(&#x27;network.proxy.socks_port&#x27;, 9150)</span><br><span class="line"></span><br><span class="line">browser = webdriver.Firefox(firefox_profile=firefox_profile)</span><br><span class="line"></span><br><span class="line"># チェック</span><br><span class="line">browser.get(&quot;https://takazawa.github.io/&quot;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h3 id="確認"><a href="#確認" class="headerlink" title="確認"></a>確認</h3><p>確認のために自分のウェブサイトにアクセスして位置情報を見たところParisになっていた．</p>
+<p><img src="/img/test.png" alt="確認画像"></p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a target="_blank" rel="noopener" href="http://www.onurvarol.com/blog/web-scraper-with-no-ip-limit-problem/">http://www.onurvarol.com/blog/web-scraper-with-no-ip-limit-problem/</a></li>
+</ul>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Tor-Browser%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB"><span class="toc-number">1.</span> <span class="toc-text">1. Tor Browserをインストール</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Tor-Browser%E3%82%92%E8%B5%B7%E5%8B%95"><span class="toc-number">2.</span> <span class="toc-text">2. Tor Browserを起動</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Selenium%E3%82%92%E4%BD%BF%E3%81%86"><span class="toc-number">3.</span> <span class="toc-text">3. Seleniumを使う</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A2%BA%E8%AA%8D"><span class="toc-number">4.</span> <span class="toc-text">確認</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">5.</span> <span class="toc-text">参考</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://takazawa.github.io/hobby/selenium_python_tor/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://takazawa.github.io/hobby/selenium_python_tor/&text=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://takazawa.github.io/hobby/selenium_python_tor/&is_video=false&description=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Selenium利用時にIPアドレスを毎アクセス変えたい&body=Check out this article: https://takazawa.github.io/hobby/selenium_python_tor/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://takazawa.github.io/hobby/selenium_python_tor/&title=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://takazawa.github.io/hobby/selenium_python_tor/&name=Selenium利用時にIPアドレスを毎アクセス変えたい&description=&lt;blockquote&gt;
+&lt;p&gt;pythonでseleniumを利用時に，毎アクセスIPアドレスを変えれないのか?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;というモチベーションを持っている人は多いと思う．&lt;br&gt;それは以下の方法で（たぶん）実現可能．Pythonだけど，Pythonじゃなくてもほぼおなじかと．&lt;br&gt;基本的に参考のリンク先を読めばわかるが，日本語の情報があまりなかったので一応共有．&lt;/p&gt;"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://takazawa.github.io/hobby/selenium_python_tor/&t=Selenium利用時にIPアドレスを毎アクセス変えたい"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2023
+    Yotaro Takazawa
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>

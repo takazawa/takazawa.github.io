@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="個人ページ作成する方法のメモこのページはMkDocsというツールを使って作りました．HTMLがわからなくてもそれなりのページが作成できるので博士の学生などで個人ページを作りたいという人にはとてもよいと思います．基本的には  pythonが入ってる(文法は全く知らなくても良い) pipが使える  ができれば作成できます．ここにいろいろ詳しく書こうと思いましたが，基本的には公式サイトを読めばわかります">
+<meta property="og:type" content="article">
+<meta property="og:title" content="個人ページ作成する方法のメモ">
+<meta property="og:url" content="https://takazawa.github.io/hobby/mkdocs/index.html">
+<meta property="og:site_name" content="Yotaro&#39;s BLOG">
+<meta property="og:description" content="個人ページ作成する方法のメモこのページはMkDocsというツールを使って作りました．HTMLがわからなくてもそれなりのページが作成できるので博士の学生などで個人ページを作りたいという人にはとてもよいと思います．基本的には  pythonが入ってる(文法は全く知らなくても良い) pipが使える  ができれば作成できます．ここにいろいろ詳しく書こうと思いましたが，基本的には公式サイトを読めばわかります">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2017-03-31T15:00:00.000Z">
+<meta property="article:modified_time" content="2023-05-20T16:57:04.989Z">
+<meta property="article:author" content="Yotaro Takazawa">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>個人ページ作成する方法のメモ</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/diary/2017/diary_201704/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/diary/2017/diary_201703/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://takazawa.github.io/hobby/mkdocs/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://takazawa.github.io/hobby/mkdocs/&text=個人ページ作成する方法のメモ"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://takazawa.github.io/hobby/mkdocs/&is_video=false&description=個人ページ作成する方法のメモ"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=個人ページ作成する方法のメモ&body=Check out this article: https://takazawa.github.io/hobby/mkdocs/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://takazawa.github.io/hobby/mkdocs/&name=個人ページ作成する方法のメモ&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://takazawa.github.io/hobby/mkdocs/&t=個人ページ作成する方法のメモ"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%80%8B%E4%BA%BA%E3%83%9A%E3%83%BC%E3%82%B8%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AE%E3%83%A1%E3%83%A2"><span class="toc-number">1.</span> <span class="toc-text">個人ページ作成する方法のメモ</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#MkDocs"><span class="toc-number">1.1.</span> <span class="toc-text">MkDocs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Markdown"><span class="toc-number">1.2.</span> <span class="toc-text">Markdown</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub-Pagas"><span class="toc-number">1.3.</span> <span class="toc-text">GitHub Pagas</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84"><span class="toc-number">1.4.</span> <span class="toc-text">このサイトをベースにしたい</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        個人ページ作成する方法のメモ
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Yotaro Takazawa</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2017-03-31T15:00:00.000Z" class="dt-published" itemprop="datePublished">2017-04-01</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/hobby/">hobby</a>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <h1 id="個人ページ作成する方法のメモ"><a href="#個人ページ作成する方法のメモ" class="headerlink" title="個人ページ作成する方法のメモ"></a>個人ページ作成する方法のメモ</h1><p>このページはMkDocsというツールを使って作りました．HTMLがわからなくてもそれなりのページが作成できるので<br>博士の学生などで個人ページを作りたいという人にはとてもよいと思います．基本的には</p>
+<ul>
+<li>pythonが入ってる(文法は全く知らなくても良い)</li>
+<li>pipが使える</li>
+</ul>
+<p>ができれば作成できます．<br>ここにいろいろ詳しく書こうと思いましたが，基本的には<a target="_blank" rel="noopener" href="http://www.mkdocs.org/">公式サイト</a>を読めばわかります．</p>
+<h2 id="MkDocs"><a href="#MkDocs" class="headerlink" title="MkDocs"></a>MkDocs</h2><p>役に立ちそうなリンクを置きます．</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://qiita.com/keitarou/items/065d4311439cc6b6847d">http://qiita.com/keitarou/items/065d4311439cc6b6847d</a></li>
+<li><a target="_blank" rel="noopener" href="http://stepxstep.org/blog/2014/06/12/mkdocs/">http://stepxstep.org/blog/2014/06/12/mkdocs/</a></li>
+</ul>
+<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>Mkdocsはマークダウンとよばれる言語で書きます．言語と言ってもかなり簡単です．</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://qiita.com/Qiita/items/c686397e4a0f4f11683d">http://qiita.com/Qiita/items/c686397e4a0f4f11683d</a></li>
+</ul>
+<h2 id="GitHub-Pagas"><a href="#GitHub-Pagas" class="headerlink" title="GitHub Pagas"></a>GitHub Pagas</h2><p>Webページを置く場所がないという人 or 大学などに置きたくないという人は<a target="_blank" rel="noopener" href="https://pages.github.com/">GitHub Pages</a>を使うとよいかもしれません．<br>無料で簡単なウェブページを置くことができます．実際このサイトもそうです．使う場合は若干のGitHubのコマンドをわかっていないと難しいかもしれません．一応，MkdocsにもGithub Pagesに対応したデプロイの<a target="_blank" rel="noopener" href="http://www.mkdocs.org/user-guide/deploying-your-docs/">コマンド</a>もあります．</p>
+<h2 id="このサイトをベースにしたい"><a href="#このサイトをベースにしたい" class="headerlink" title="このサイトをベースにしたい"></a>このサイトをベースにしたい</h2><p>このサイトをダウンロードして編集して使ってもらっても構いません．<br><a target="_blank" rel="noopener" href="https://github.com/takazawa/takazawa.github.io/">こちら</a>へ飛んで，「Clone or download」というボタンを押せばダウンロードできます．</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%80%8B%E4%BA%BA%E3%83%9A%E3%83%BC%E3%82%B8%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AE%E3%83%A1%E3%83%A2"><span class="toc-number">1.</span> <span class="toc-text">個人ページ作成する方法のメモ</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#MkDocs"><span class="toc-number">1.1.</span> <span class="toc-text">MkDocs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Markdown"><span class="toc-number">1.2.</span> <span class="toc-text">Markdown</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub-Pagas"><span class="toc-number">1.3.</span> <span class="toc-text">GitHub Pagas</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84"><span class="toc-number">1.4.</span> <span class="toc-text">このサイトをベースにしたい</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://takazawa.github.io/hobby/mkdocs/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://takazawa.github.io/hobby/mkdocs/&text=個人ページ作成する方法のメモ"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://takazawa.github.io/hobby/mkdocs/&is_video=false&description=個人ページ作成する方法のメモ"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=個人ページ作成する方法のメモ&body=Check out this article: https://takazawa.github.io/hobby/mkdocs/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://takazawa.github.io/hobby/mkdocs/&title=個人ページ作成する方法のメモ"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://takazawa.github.io/hobby/mkdocs/&name=個人ページ作成する方法のメモ&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://takazawa.github.io/hobby/mkdocs/&t=個人ページ作成する方法のメモ"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2023
+    Yotaro Takazawa
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
