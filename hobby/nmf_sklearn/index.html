@@ -108,12 +108,10 @@
         <li><a class="icon" aria-label="Next post" href="/hobby/google_jamboard/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
       </ul>
       <span id="i-prev" class="info" style="display:none;">Previous post</span>
       <span id="i-next" class="info" style="display:none;">Next post</span>
       <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
     </span>
     <br/>
     <div id="share" style="display: none">
@@ -248,31 +246,8 @@
       </ul>
     </div>
 
-    <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%81%96%E3%81%A3%E3%81%8F%E3%82%8A%E3%81%A8%E3%81%97%E3%81%9F%E3%82%BF%E3%82%B9%E3%82%AF"><span class="toc-number">1.</span> <span class="toc-text">ざっくりとしたタスク</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#NMF%E3%81%AB%E3%82%88%E3%82%8B%E5%AE%9F%E7%8F%BE"><span class="toc-number">2.</span> <span class="toc-text">NMFによる実現</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%AD%A6%E7%BF%92"><span class="toc-number">2.1.</span> <span class="toc-text">1.学習</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E4%BA%88%E6%B8%AC"><span class="toc-number">2.2.</span> <span class="toc-text">2.予測</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Python-scikit-learn-%E3%81%AB%E3%82%88%E3%82%8B%E5%AE%9F%E8%A3%85"><span class="toc-number">3.</span> <span class="toc-text">Python(scikit-learn)による実装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%AD%A6%E7%BF%92-1"><span class="toc-number">3.1.</span> <span class="toc-text">1.学習</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E4%BA%88%E6%B8%AC-1"><span class="toc-number">3.2.</span> <span class="toc-text">2.予測</span></a></li></ol></li></ol>
-    </div>
-
-    <div id="share-footer" style="display: none">
-      <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://takazawa.github.io/hobby/nmf_sklearn/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://takazawa.github.io/hobby/nmf_sklearn/&text=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://takazawa.github.io/hobby/nmf_sklearn/&title=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://takazawa.github.io/hobby/nmf_sklearn/&is_video=false&description=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Python(scikit-learn)でNMFを利用したレコメンド&body=Check out this article: https://takazawa.github.io/hobby/nmf_sklearn/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://takazawa.github.io/hobby/nmf_sklearn/&title=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://takazawa.github.io/hobby/nmf_sklearn/&title=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://takazawa.github.io/hobby/nmf_sklearn/&title=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://takazawa.github.io/hobby/nmf_sklearn/&title=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://takazawa.github.io/hobby/nmf_sklearn/&name=Python(scikit-learn)でNMFを利用したレコメンド&description=&lt;p&gt;scikit-learnを利用したNMF利用の方法の解説の記事はいくつかあったのですが，&lt;br&gt;実際の用途にあった記事がみつからなかったためメモとして残します．&lt;/p&gt;"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://takazawa.github.io/hobby/nmf_sklearn/&t=Python(scikit-learn)でNMFを利用したレコメンド"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
-</ul>
-
-    </div>
-
     <div id="actions-footer">
         <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
         <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
     </div>
 
@@ -285,7 +260,7 @@
     Copyright &copy;
     
     
-    2016-2023
+    2018-2023
     Yotaro Takazawa
   </div>
   <div class="footer-right">
