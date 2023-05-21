@@ -5,6 +5,9 @@ categories:
     - about 
 ---
 
+# Profile
+
+- Yotaro Takazawa
 
 
 ---
@@ -19,7 +22,7 @@ categories:
 # Curriculum Vitae
 
 ## Experience
--  Oct 2019 - Present: Assistant Professor
+-  Oct 2019 - : Assistant Professor
 Department of Industrial and Systems Engineering, Aoyama Gakuin University @Kanagawa, Japan
 - Oct 2018 - Sep 2019: AI Engineer (intern)
 Mercari, Inc. @Tokyo, Japan
@@ -53,7 +56,7 @@ Discrete Optimization and Machine Learning, Tokyo, Japan, July 2018.
 
 1. Y. Takazawa, S. Mizuno, T. Kitahara, "Approximation Algorithms for the covering-type linear programming with violations", 2018 INFORMS International Conference, Taipei, Taiwan, June 2018.
 
-1. Y. Takazawa, S. Mizuno, T. Kitahara, "An improve approximation algorithm for the covering 0-1 integer program", The Second Pacific Optimization Conference (POC 2017), Perth, Australia, December 2017.
+1. Y. Takazawa, S. Mizuno, T. Kitahara, "An improved approximation algorithm for the covering 0-1 integer program", The Second Pacific Optimization Conference (POC 2017), Perth, Australia, December 2017.
 
 1.	Y. Takazawa, S. Mizuno, T. Kitahara, “An approximation algorithm for the partial covering 0-1 integer program”, SIAM Conference on Optimization, Vancouver, Canada, May 2017.
 
