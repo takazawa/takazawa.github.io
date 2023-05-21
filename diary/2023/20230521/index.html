@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="数年ぶりにホームページをリニューアルしました。 作業メモ準備1npm install   Hexo テンプレート https:&#x2F;&#x2F;github.com&#x2F;probberechts&#x2F;hexo-theme-cactus  いじった点色 themes&#x2F;cactus&#x2F;source&#x2F;css&#x2F;_colors&#x2F;monokai.style を追加し、colorをmonokaiへ  設定 themes&#x2F;_config">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ホームページ更新と作業メモ">
+<meta property="og:url" content="https://takazawa.github.io/diary/2023/20230521/index.html">
+<meta property="og:site_name" content="Yotaro&#39;s Website">
+<meta property="og:description" content="数年ぶりにホームページをリニューアルしました。 作業メモ準備1npm install   Hexo テンプレート https:&#x2F;&#x2F;github.com&#x2F;probberechts&#x2F;hexo-theme-cactus  いじった点色 themes&#x2F;cactus&#x2F;source&#x2F;css&#x2F;_colors&#x2F;monokai.style を追加し、colorをmonokaiへ  設定 themes&#x2F;_config">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-05-21T07:55:28.000Z">
+<meta property="article:modified_time" content="2023-05-21T08:15:17.669Z">
+<meta property="article:author" content="Yotaro Takazawa">
+<meta property="article:tag" content="プログラミング">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>ホームページ更新と作業メモ</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46481543-2"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-46481543-2');
+  </script>
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/english/">CV (English)</a></li><!--
+     --><!--
+       --><li><a href="/archives">Posts</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/diary/2019/diary_201904/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://takazawa.github.io/diary/2023/20230521/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://takazawa.github.io/diary/2023/20230521/&text=ホームページ更新と作業メモ"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://takazawa.github.io/diary/2023/20230521/&title=ホームページ更新と作業メモ"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://takazawa.github.io/diary/2023/20230521/&is_video=false&description=ホームページ更新と作業メモ"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=ホームページ更新と作業メモ&body=Check out this article: https://takazawa.github.io/diary/2023/20230521/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://takazawa.github.io/diary/2023/20230521/&title=ホームページ更新と作業メモ"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://takazawa.github.io/diary/2023/20230521/&title=ホームページ更新と作業メモ"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://takazawa.github.io/diary/2023/20230521/&title=ホームページ更新と作業メモ"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://takazawa.github.io/diary/2023/20230521/&title=ホームページ更新と作業メモ"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://takazawa.github.io/diary/2023/20230521/&name=ホームページ更新と作業メモ&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://takazawa.github.io/diary/2023/20230521/&t=ホームページ更新と作業メモ"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%9C%E6%A5%AD%E3%83%A1%E3%83%A2"><span class="toc-number">1.</span> <span class="toc-text">作業メモ</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%BA%96%E5%82%99"><span class="toc-number">1.1.</span> <span class="toc-text">準備</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88"><span class="toc-number">1.2.</span> <span class="toc-text">Hexo テンプレート</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%81%84%E3%81%98%E3%81%A3%E3%81%9F%E7%82%B9"><span class="toc-number">1.2.1.</span> <span class="toc-text">いじった点</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%89%B2"><span class="toc-number">1.2.1.1.</span> <span class="toc-text">色</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A8%AD%E5%AE%9A"><span class="toc-number">1.2.1.2.</span> <span class="toc-text">設定</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%83%9A%E3%83%BC%E3%82%B8%E7%94%9F%E6%88%90"><span class="toc-number">1.2.2.</span> <span class="toc-text">ページ生成</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%A7%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E7%AB%8B%E3%81%A6%E3%82%8B"><span class="toc-number">1.2.2.1.</span> <span class="toc-text">ローカルでサーバー立てる</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4"><span class="toc-number">1.2.3.</span> <span class="toc-text">デプロイ</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        ホームページ更新と作業メモ
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Yotaro Takazawa</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2023-05-21T07:55:28.000Z" class="dt-published" itemprop="datePublished">2023-05-21</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/diary/">diary</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa-solid fa-tag"></i>
+        <a class="p-category" href="/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" rel="tag">プログラミング</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <p>数年ぶりにホームページをリニューアルしました。</p>
+<h1 id="作業メモ"><a href="#作業メモ" class="headerlink" title="作業メモ"></a>作業メモ</h1><h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install </span><br></pre></td></tr></table></figure>
+
+<h2 id="Hexo-テンプレート"><a href="#Hexo-テンプレート" class="headerlink" title="Hexo テンプレート"></a>Hexo テンプレート</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/probberechts/hexo-theme-cactus">https://github.com/probberechts/hexo-theme-cactus</a></li>
+</ul>
+<h3 id="いじった点"><a href="#いじった点" class="headerlink" title="いじった点"></a>いじった点</h3><h4 id="色"><a href="#色" class="headerlink" title="色"></a>色</h4><ul>
+<li><code>themes/cactus/source/css/_colors/monokai.style</code> を追加し、colorをmonokaiへ</li>
+</ul>
+<h4 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h4><ul>
+<li><code>themes/_config.yml</code>からmathjaxをtrueへ</li>
+</ul>
+<h3 id="ページ生成"><a href="#ページ生成" class="headerlink" title="ページ生成"></a>ページ生成</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<h4 id="ローカルでサーバー立てる"><a href="#ローカルでサーバー立てる" class="headerlink" title="ローカルでサーバー立てる"></a>ローカルでサーバー立てる</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<h3 id="デプロイ"><a href="#デプロイ" class="headerlink" title="デプロイ"></a>デプロイ</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/english/">CV (English)</a></li>
+        
+          <li><a href="/archives">Posts</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2018-2023
+    Yotaro Takazawa
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/english/">CV (English)</a></li><!--
+     --><!--
+       --><li><a href="/archives">Posts</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
