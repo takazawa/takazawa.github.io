@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-cactus"]
+	path = themes/hexo-theme-cactus
+	url = https://github.com/takazawa/hexo-theme-cactus.git
